@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog 1: How to Scaffold a Project</title>
+    <style>
+    body {width: 82%;margin: 1em auto;background: #cff0ec;font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";line-height: 1.5;font-size:18px;}
+    .step {background: #FFC0CB;margin: 1em; padding: 1em;border: 1px solid #ffffff;border-radius:4px;}
+    code {background: #ffffff; padding: .2em .5em .2em .5em;}
+    h3 {margin-bottom: 0; padding-bottom: 0; color: #ffffff; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000}
+    p:first-child {padding-top: 0;margin-top:0;}
+    img {width: 100%; height: auto;}
+    h1 {color: #ffffff; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;}
+    </style>
+  </head>
+  <body>
+    <div class="step">
+        <h1>How to Scaffold a Project</h1>
+        <p>This article explains how to create a project folder using the command line. Once you've completed these steps, you'll have a new desktop folder created and filled with important folders for web development projects and organization.</p>
+        <p>Before you begin, you should be comfortable with the command line interface and you should know how to do basic tasks from the terminal.</p>
+        <p><strong>Important note: </strong>The terminal commands in the instructions below include the symbol <code>$</code> to represent the command prompt. When entering the commands, you <strong>do not</strong> type the <code>$</code>, only the specific commands themselves.</p>
+      </div>
+      <div class="step 1">
+        <h3>Step 1: Open the terminal, and change directory to desktop. </h3>
+          <p>Once in terminal, type the following command: </p>
+        <pre><code>$ cd desktop</code></pre>
+      </div>
+      <div class="step 2">
+        <h3>Step 2: Create the main project folder.</h3>
+        <p>Now you're reading to start your project folder! This will be the main folder that appears on the desktop, and inside will be all the other necessary project folders. I'm going to call this one "new-project", but you can name it whatever you'd like. Enter: </p>
+        <pre><code>$ mkdir new-project</code></pre>
+      <div class="step">
+        <h3>Step 3: Enter the new file and create subfolders.</h3>
+        <p>Now, you have to enter the <code>new-project</code> folder you just made in order to create the subfolders inside of it.</p>
+        <pre><code>$ cd new-project</code></pre>
+        <p>Create the new folders.</p>
+        <pre><code>$ mkdir images scripts site styles index.html</code></pre>
+        <p>Now you have your main folder called:<pre><code>new-project</code></pre> it's inner folders called: <pre><code>images</code></pre> <pre><code>scripts</code></pre><pre><code>site</code></pre><pre><code>styles</code></pre> and the html file:<pre><code>index.html</code></pre>
+      </div>
+      <div class="step">
+        <h3>Step 4: Fill the<code>styles</code>folder.</h3>
+        <p>Enter the styles folder.</p>
+        <pre><code>$ cd styles</code></pre>
+        <p>Create a css file within this folder for styling.</p>
+        <pre><code>$ touch style.css</code></pre>
+      </div>
+      <div class="step">
+        <h3>Step 5: Fill the<code>site</code>folder. </h3>
+        <p>Change your directory back to the<code>new-project</code>folder.
+        <pre><code>$ cd ..</code></pre>
+        <p>Enter the<code>site</code>folder.
+        <pre><code>$ cd site</code></pre>
+        <p>Fill the folder with it's subfolders.</p>
+        <pre><code>$ mkdir comments pages posts</code></pre>
+      </div>
+      <div class="step">
+        <h3>That&#39;s it!</h3>
+        <p>Now, if you check your desktop you should have a new folder there titled accordingly, full of the folders you created.</a></p>
+      </div>
+    <!-- Your blog content goes here-->
+    <!-- Don't forget to change the page title -->
+    <!-- You can wrap your steps in a <div> with a class of .step for basic styles-->
+    <!-- Feel free to change the styles as you see fit-->
+    <!-- Please use <pre> and <code> tags properly for commands and code-->
+    <!-- Please delete these comments in your posts :) -->
+  </body>
+</html>
